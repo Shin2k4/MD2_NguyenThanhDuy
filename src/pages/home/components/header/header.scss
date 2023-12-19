@@ -1,0 +1,38 @@
+
+.header_box {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    header {
+        max-width: $maxW;
+        min-width: $minW;
+        div {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            img {
+                width: 50px;
+                height: 50px;
+                margin-right: 10px;
+                border-radius: 50%;
+            }
+
+            a {
+                color: #fff;
+                text-decoration: none;
+                margin: 0 10px;
+                font-size: 30px;
+                cursor: pointer;
+                &:hover {
+                    color: aqua;
+                }
+            }
+
+        }
+    }
+}

@@ -1,0 +1,17 @@
+.Contents{
+    max-width: $maxW;
+    height: 100%;
+    display: flex;
+    
+    .Content_Left{
+        min-width: 840px;
+        height: 100%;
+        background-color: red;
+        
+    }
+    .Content_Rigth{
+        min-width: 360px;
+        height: 100%;
+        background-color: blueviolet;
+    }
+}
